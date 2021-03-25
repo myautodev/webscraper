@@ -75,7 +75,7 @@ public class TestBase {
 
         }
 //        // still need to install the IE exe and FireFox exe
-//        else if (browserName.equalsIgnoreCase("IE")) {
+//    git     else if (browserName.equalsIgnoreCase("IE")) {
 //            System.setProperty(prop.getProperty("InternetExpLocation"));
 //            driver = new InternetExplorerDriver();
 //        } else if (browserName.equalsIgnoreCase("firefox")){
