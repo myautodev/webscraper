@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyWebScraper:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyWebScraper_war2</output-path>
+    <root id="archive" name="MyWebScraper_war.war">
+      <element id="artifact" artifact-name="MyWebScraper:war exploded" />
+    </root>
+  </artifact>
+</component>
