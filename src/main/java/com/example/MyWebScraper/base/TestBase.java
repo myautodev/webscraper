@@ -65,7 +65,8 @@ public class TestBase {
 
            // this.getClass().getResource("chromedriver.exe");
             //  String browserName = "chrome";
-            System.setProperty("webdriver.chrome.driver",cl.getResource("chromedriver.exe").getFile());
+            System.setProperty("webdriver.chrome.driver","/usr/bin/google-chrome");
+            //System.setProperty("webdriver.chrome.driver",cl.getResource("chromedriver.exe").getFile());
             ChromeOptions option = new ChromeOptions();
             option.addArguments("headless");
             option.addArguments("ignore-certificate-errors");
